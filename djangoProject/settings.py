@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'braces',
     'corsheaders',
     'rest_framework',
     'myapi.apps.MyapiConfig',
